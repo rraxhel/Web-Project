@@ -1,0 +1,128 @@
+@import '../bootstrap-5.3.2/bootstrap-5.3.2/scss/bootstrap-reboot.scss';
+@import '../bootstrap-5.3.2/bootstrap-5.3.2/scss/bootstrap-grid.scss';
+@import "../node_modules/bootstrap/scss/bootstrap";
+
+.yusei-magic{
+    font-family: 'Yusei Magic', sans-serif;
+}
+.zen-antique-soft{
+    //font-family: 'Zen Antique Soft', serif;
+    font-family: 'Noto Serif TC', serif;
+}
+.Abril-Fatface{
+    font-family: 'Abril Fatface', serif;
+}
+body{
+    font-family: 'Zen Kaku Gothic New', sans-serif;
+    font-size: 24px;
+    line-height: 1.5;
+    color: #465645;
+}
+.header{
+    height: 504px; 
+    background-position: center center;//定位
+    background-size: cover;//填滿容器
+    
+}
+.header-banner{
+    //height: 263px;
+    background-position: center center;//定位
+    background-size: cover;//填滿容器
+    //overflow: hidden;
+}
+.section-box-top {
+    background-color: #C4F96E;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    //background-color: #CBDDAE;
+    z-index: 1000;
+}
+.title-font{
+    margin-left: 90px; 
+    margin-top: -150px; 
+    z-index: 1000; 
+    color: #1E341C;
+}
+
+//bgroll
+.bgWrap{
+    height: 816px;
+    width: auto;
+    margin: 46px auto;
+    
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover ;
+    background-attachment: fixed;
+    
+}
+
+
+/*navbar*/
+.navbar{
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    background-color: #CBDDAE;
+    z-index: 1000;
+    .navbar-list{
+        display: flex;
+        list-style: none;
+    }
+    .list-item{
+        padding: 11px;/*1rem=16px*/
+        display: inline-block;
+        text-decoration: none;
+        color: black;
+        font-size: 40px;
+        :hover, :active{
+            color: #1B5781;
+            /*text-decoration: underline;*/
+            border-bottom: 5px solid #1B5781; /* 5px 的底線*/
+            border-radius: 2%;
+        }
+    }
+}
+
+
+
+//
+.vertical-line {
+    border-left: 2px solid #465645; /* 設定直線的寬度和顏色 */
+    height: 263px; /* 設定直線的高度 */
+    margin: 0 0; /* 設定直線的左右間距，根據需要調整 */
+}
+.upright{
+    writing-mode: vertical-lr;
+  text-orientation: upright;
+  }
+
+
+//utilities
+.d-flex{
+    display: flex;
+}
+.justify-content-between{
+    justify-content: space-between; 
+}
+.justify-content-center{
+    justify-content: center;
+}
+.align-items-center{
+    align-items: center;//垂直置中
+}
+.justify-content-right{
+   justify-content: right;
+}
+.p-relative{
+    position: relative;
+}
+.p-absolute{
+    position: absolute;
+}
+.z-index--1{
+    z-index: -1;
+}
