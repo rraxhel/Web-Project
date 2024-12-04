@@ -14,4 +14,4 @@ P.S 目前網站只支援電腦比例100%
 
 # 網站介面
 ![image](picture/網頁index.png)
-![image](picture/主畫面視窗.png)
+![image](picture/網頁主選單.png)
